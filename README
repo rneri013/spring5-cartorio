@@ -1,0 +1,29 @@
+  # Aplicacao
+  
+	- O projeto consiste em um CRUD de criação, edição, atualização, deleção, listagem, e consulta via Rest de cartórios.
+  
+  # Desenvolvimento
+  
+ 	- Realizado desenvolvimento do projeto atendendo os requisitos solicitados, sendo utilizado:
+ 	- SpringBoot;
+ 	- JPA
+ 	- JSP
+	- H2
+   
+  # Execucao
+  
+ 	- Para execução do projeto basta executar a classe principal CartorioApplication, onde a aplicação realizará o starting e irá subir na porta 8084,
+ 	esta que pode ser alterada dentro do arquivo application.properties.
+ 	
+ 	- Com a aplicação no ar, pode ser navegado pela tela desenvolvida em JSP, e realizar assim as funções do CRUD.
+ 	
+ 	- Para realizar uma consulta REST para a listagem de cartorios conforme solicitado, pode ser executada via PostMan ou ate mesmo pelo terminal.
+ 	 - Acessar a URL via GET http://localhost:8084/cartoriosApi
+ 	 
+ 	- Caso necessário em caso de testes, ao acessar a url http://localhost:8084/h2-console e acessar com as credenciais que constam no application.properties,
+ 	pode-se consultar os dados que estão sendo cadastrados via aplicação. 
+ 	 
+ 
+ Atenciosamente,
+ 
+ Renan Neri.
